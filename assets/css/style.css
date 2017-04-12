@@ -1,0 +1,259 @@
+	/**
+
+	*{
+		box-sizing: border-box;
+	}
+
+	body{
+		width: 100%;
+		background-image: url("../images/pow-star.png");
+		color: #777777;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	header{
+		background-color: white;
+		border-color: #cccccc;
+		border-bottom-style: solid;
+		border-bottom-width: 2px;
+		width: 100%;
+		top: 0;
+	}
+
+	h1,h2,h3{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+	}
+
+	h1{
+		margin: 0px;
+		margin-left: 100px;
+		padding: 24px;
+		width: 400px;
+		background-color: #4aaaa5; 
+		margin-right: 40px;
+		font-size: 24px;
+		text-align: center;
+	}
+
+	nav{
+	    float: right;
+	    margin-right: 100px;
+	    position: relative;
+	    bottom: 70px; 
+	}
+
+	#mainContent{
+		width: 960px;
+		margin: 0 auto 0 auto;
+		padding: 20px;
+		display: block;
+	}
+
+	#aboutMe{
+		width: 500px;
+		float: left;
+		display: block;
+		border: 2px solid #eee;
+		background-color: white;
+		top:20px;
+		left: 10px;
+	}
+
+	#image{
+		float: left;
+		padding: 15px;
+	}
+
+	#connectWithMe{
+		float: right;
+		width: 270px;
+		background-color: white;
+	    border: 2px solid #cccccc;
+	    padding: 25px;
+	    margin: 10px;
+	    text-align: center;
+	}
+
+	#contact:link, #contact:visited, #portfolio:link, #portfolio:visited, #about:link, 
+	#about:visited {
+	    background-color: white;
+	    color: black;
+	    padding: 14px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	}
+
+	#absoluteRight{
+		clear:both;
+	 	overflow: auto; 
+		float: right;
+	}
+
+	#paragraph{
+		clear:both;
+	 	overflow: auto;
+		float: left;
+	}
+
+	#idFooter{
+		width: 100%;
+		padding: 40px;
+		text-align: center; 
+		clear:both;
+		position: fixed;
+		bottom: 0;
+		background-color: #666666;
+	    color: black;
+	    border-style: solid;
+	    border-width: 5px 0px 0px 0px;
+	    border-top-color: #4aaaa5
+	}
+
+	#leftImage{
+		float: left;
+		padding: 5px;
+	}
+
+	#rightImage{
+		float: right;
+		padding: 5px;
+	} */
+
+
+	/**#absoluteLeftName{
+		position: fixed;
+		padding: 20px;
+		text-align: center;
+		margin:0;
+		top:0;
+		left:180px;	
+	}*/
+
+
+body {
+	background-image: url("../images/pow-star.png");
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #cccccc;
+	width: 100%;
+	top: 0;
+}
+
+h1, h2 {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-weight: bold;
+}
+
+#contact:link, #contact:visited, #portfolio:link, #portfolio:visited, #about:link, 
+	#about:visited {
+	    background-color: white;
+	    color: black;
+	    padding: 14px 25px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+}
+
+#content {
+	float: left;
+	width: 650px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	padding: 25px;
+	margin-top: 40px;
+	margin-left: 60px;
+	background-color: #ffffff;
+}
+
+#bio-image {
+	float: left;
+	padding: 15px;
+}
+
+#connect {
+	/** margin: 50px; */
+	float: right;
+    width: 270px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    padding: 25px;
+    margin-top: 0px;
+    margin-right: 150px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+}
+
+h1 {
+	width: 300px;
+	padding: 20px 0;
+	margin: 0;
+	margin-left: 100px;
+	margin-bottom: 0;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	/** font-size: 32px; */
+	text-align: center;
+	margin-right: 40px;
+	font-size: 24px;
+}
+
+#links {
+	float: right;
+	margin-right: 100px;
+	position: relative;
+	bottom: 50px;
+}
+
+#left-image {
+	float: left;
+	padding: 5px;
+}
+
+#right-image {
+	float: right;
+	padding: 5px;
+}
+
+.contact-input {
+	margin: 10px 0;
+	padding: 8px 0;
+	width: 100%;
+}
+
+#contact-message {
+	padding: 50px 0;
+}
+
+h2 {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	font-size: 20px;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+	background-color: #666666;
+	color: #ffffff;
+	border-style: solid;
+	border-width: 5px 0px 0px 0px;
+	border-top-color: #4aaaa5;
+	padding: 40px;
+	margin: 0;
+	text-align: center;
+	font-size: 12px;
+}
